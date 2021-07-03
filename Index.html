@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+  <title></title>
+</head>
+
+<body>
+  <!-- 
+    <div class="container mt-5">
+      <div class="row border border-primary p-2">
+        <div class="col-md-3 border bg-success">
+          <div class="m-2">
+            <h2 class="h3 text-warning">In The name of allah</h2>
+            <h3>A</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur amet vitae sed!</p>
+          <button class="btn btn-info">Click Here</button>
+          </div>
+        </div>
+        <div class="col-md-3 border bg-danger">
+          <div class="m-2">
+            <h2 class="h3 text-success">In The name of allah</h2>
+            <h3>B</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur amet vitae sed!</p>
+          <button class="btn btn-info">Click Here</button>
+          </div>
+        </div>
+        <div class="col-md-3 border bg-warning">
+          <div class="m-2">
+            <h2 class="h3 text-info">In The name of allah</h2>
+            <h3>C</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur amet vitae sed!</p>
+          <button class="btn btn-info">Click Here</button>
+          </div>
+        </div>
+        <div class="col-md-3 border bg-secondary">
+          <div class="m-2">
+            <h2 class="h3 text-success">In The name of allah</h2>
+            <h3>D</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur amet vitae sed!</p>
+          <button class="btn btn-info">Click Here</button>
+          </div>
+        </div>
+        <div class="col-md-3 border bg-secondary">
+          <div class="m-2">
+            <h2 class="h3 text-success">In The name of allah</h2>
+            <h3>F</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur amet vitae sed!</p>
+          <button class="btn btn-info">Click Here</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  <h1 class="display-2 text-center">flexbox</h1>
+  <!-- 
+  <div class="container">
+    <div class="wrapper row d-flex">
+      <div class="item-1 border border-success p-2 flex-row">Item 1</div>
+      <div class="item-1 border border-success p-2 flex-row">Item 2</div>
+      <div class="item-1 border border-success p-2 flex-row">Item 3</div>
+    </div>
+
+    <div class="d-flex row mt-2 w-50 bg-secondary text-light flex-wrap">
+      <div class="item-1 border border-info p-2 flex-row">Item 1</div>
+      <div class="item-2 border border-danger p-2 flex-row">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-row">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-row">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-column">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-column">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-column">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-column">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-column">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-column">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-column">Item 2</div>
+      <div class="item-2 border border-danger p-2 flex-column">Item 2</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+  </div> -->
+
+
+  <div class="container">
+    <div class="d-flex p-2 bg-danger align-content-stretch">I'm a flexbox container</div>
+    <div class="d-inline-flex p-2 bg-info">I am a inline flexbox </div>
+    <div class="d-sm-flex d-inline-flex p-2 bg-warning">I'm small display flex</div>
+
+    <div class="d-lg-flex d-sm-inline-flex p-2 bg-success">
+      large flex display
+    </div>
+
+    <div class="d-flex flex-row flex-sm-row-reverse flex-md-row bg-danger">
+      <div class="p-2 border border-info">flex-item 1</div>
+      <div class="p-2 border border-info">flex-item 2</div>
+      <div class="p-2 border border-info">flex-item 3</div>
+    </div>
+    <div class="d-flex bg-info flex-column flex-md-column-reverse">
+      <div class="p-2 border border-warning">flex-item 1</div>
+      <div class="p-2 border border-warning">flex-item 2</div>
+      <div class="p-2 border border-warning">flex-item 3</div>
+    </div>
+
+    <div class="d-flex bg-secondary flex-column flex-md-column flex-sm-column-reverse">
+      <div class="p-2 border border-success">Item one</div>
+      <div class="p-2 border border-success">Item Two</div>
+      <div class="p-2 border border-success">Item Three</div>
+    </div>
+
+
+    <div
+      class="mt-3 p-2 border border-info d-flex flex-md-row flex-sm-row justify-content-center justify-content-lg-end justify-content-md-center justify-content-sm-start">
+      <div class="bg-success">Item one</div>
+      <div class="bg-danger">Item Two</div>
+      <div class="bg-secondary">Item Three</div>
+      <div class="bg-warning">Item Four</div>
+    </div>
+
+    <div
+      class="mt-3 p-2 border border-danger d-flex justify-content-start justify-content-lg-end justify-content-md-center justify-content-sm-between">
+      <div class="bg-info">Item one</div>
+      <div class="bg-success">Item Two</div>
+      <div class="bg-warning">Item Three</div>
+      <div class="bg-secondary">Item Four</div>
+    </div>
+
+    <div class="mt-3 p-1 border border-success text-light d-flex justify-content-lg-around justify-content-md-between">
+      <div class="bg-warning m-1">item one</div>
+      <div class="bg-dark m-1">item Two</div>
+      <div class="bg-danger m-1">item Three</div>
+      <div class="bg-info m-1">item Four</div>
+    </div>
+
+    <div
+      class="d-flex p-1 border border-danger text-light align-items-start align-items-lg-end align-items-md-center align-items-sm-stretch mt-2"
+      style="height: 300px;">
+      <div class="bg-warning p-1 m-1">Item One</div>
+      <div class="bg-success p-1 m-1">Item Two</div>
+      <div class="bg-info p-1 m-1">Item Three</div>
+    </div>
+
+    <div
+      class="d-flex p-1 border mt-2 border-secondary text-light justify-content-start justify-content-lg-end justify-content-md-center justify-content-xl-around justify-content-sm-between align-items-start align-items-xl-end align-items-lg-center align-items-md-baseline align-items-sm-stretch align-content-stretch"
+      style="height: 250px;">
+      <div class="bg-danger p-1 m-1">Item 1</div>
+      <div class="bg-success p-1 m-1">Item 2</div>
+      <div class="bg-secondary p-1 m-1">Item 3</div>
+      <div class="bg-warning p-1 m-1">Item 4</div>
+      <div class="bg-info p-1 m-1">Item 5</div>
+    </div>
+
+    <div
+      class="d-flex p-1 border border-1 mt-2 border-info text-light justify-content-start align-items-start justify-content-xl-end justify-content-lg-center justify-content-md-start justify-content-sm-between align-items-xl-end align-items-lg-center align-items-md-start align-items-sm-stretch align-content-stretch"
+      style="height: 300px;">
+      <div
+        class="bg-success p-1 m-1 align-self-start align-self-xl-end align-self-lg-center align-self-md-start align-self-sm-stretch">
+        item 1</div>
+
+      <div
+        class="bg-danger p-1 m-1 align-self-start align-self-xl-start align-self-md-start align-self-lg-center align-self-sm-stretch">
+        item 2</div>
+
+      <div
+        class="bg-info p-1 m-1 align-self-stretch align-self-xl-start align-self-lg-center align-self-sm-end align-self-md-baseline">
+        item 3</div>
+
+      <div
+        class="bg-warning p-1 m-1 align-self-center align-self-xl-start align-self-lg-end align-self-md-stretch align-self-sm-center">
+        item 4</div>
+
+      <div
+        class="bg-primary p-1 m-1 align-self-center align-self-xl-center align-self-lg-start align-self-md-end align-self-sm-stretch">
+        item 5</div>
+
+      <div
+        class="bg-secondary p-1 m-1 align-self-stretch align-self-xl-start align-self-md-center align-self-sm-end align-self-lg-stretch">
+        item 6</div>
+    </div>
+
+
+
+
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
